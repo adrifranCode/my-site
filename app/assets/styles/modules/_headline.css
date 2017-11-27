@@ -1,0 +1,53 @@
+.headline{
+	font-weight:300;
+	font-size:1.9rem;
+	color:grey;
+	
+	
+	&--centered{
+		text-align:center;
+	}
+	
+	@mixin atMedium{
+		color:black;
+		font-size:2.875rem;
+	}	
+	
+	&--purple{
+		color:$mainPurple;
+		
+		@mixin atMedium{
+		color:$mainPurple;
+		}
+		
+		@mixin atLarge{
+		color:$mainPurple;
+		}
+	}
+	&--light {
+		font-weight:100;
+	}
+	&--small{
+		font-size:1.2rem;
+		max-width:500px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		@mixin atSmall{
+			font-size:1.875rem
+		}
+	}
+	
+	&--b-margin-small {
+		margin-bottom: .5em;
+	}
+	
+	&--b-margin-large{
+		margin-bottom: 1.6em;
+	}
+	
+	&--no-t-margin{
+		margin-top:0;
+	}
+	
+}

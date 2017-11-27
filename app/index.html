@@ -6,11 +6,12 @@
   <title>Clear View Escapes</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+  <link rel ="stylesheet" href = "temp/styles/styles.css">
 </head>
 <body>
   <header>
     <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#">Get in Touch</a>
+    <a href="#" class = "butn">Get in Touch</a>
     <nav>
       <ul>
         <li><a href="#our-beginning">Our Beginning</a></li>
@@ -21,43 +22,70 @@
   </header>
 
   <div class="large-hero">
-    <img src="assets/images/hero--large.jpg">
-    <h1>Your clarity.</h1>
-    <h2>One trip away.</h2>
-    <p>We create soul restoring journeys that inspire you to be you.</p>
-    <p><a href="#">Get Started Today</a></p>
+    <picture class = "img-framed">
+		<picture class = "large-hero__darken">
+			<source srcset = "assets/images/hero--large2.jpg 1920w, assets/images/hero--larger2.jpg 4300w" media = "(min-width:990px)">
+			<source srcset = "assets/images/hero--small2.jpg" media = "(min-width:640px)">
+			<img src= "assets/images/hero--smaller2.jpg" alt ="Beautiful collection of art showcases">
+		</picture>
+    </picture>
+    <div class ="large-hero__text-content">
+		<h1 class = "large-hero__tittle">Find treasure.</h1>
+		<h2 class = "large-hero__subtittle">One click away.</h2>
+		<p class = "large-hero__description">Locate, study, and purchase the world's art on the internet</p>
+		<p><a href="#" class ="butn butn--purple butn--large">Get Started Today</a></p>
+    </div>
   </div>
 
-  <div id="our-beginning">
-    <h2>The first trip we planned was our own.</h2>
-    <h3>Ever since, we&rsquo;ve been working to make travel better for everyone.</h3>
-    <img src="assets/images/first-trip.jpg" alt="Couple walking down a street.">
-    <img src="assets/images/our-start.jpg" alt="Our founder, Jane Doe">
-    <h2>Here&rsquo;s how we got started&hellip;</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+  <div id="our-beginning" class ="page-section">
+	<div class = "wrapper">
+		<h2 class="headline headline--centered headline--light headline--b-margin-small">Amazing artwork right at your fingertips.</h2>
+		<h3 class="headline headline--centered headline--purple headline--small headline--light headline--b-margin-large"> Curated pieces from artists worldwide showcase the best art the world has to offer.</h3>
+		<div class = "wrapper wrapper--medium wrapper--b-margin">
+			<img class = "img-post-effects" sizes ="(min-width: 970px) 976w, 100vw" srcset="assets/images/graffiti-lowres.jpg 460w, assets/images/graffiti-mediumres.jpg 976w, assets/images/graffiti.jpg 1920w" alt="Beautifully designed graffiti on a wall">
+		</div>	
+		<div class="row row--gutters">
+			<div class ="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+				<picture class = "img-post-effects">
+					<source sizes ="426px" srcset ="assets/images/woman-model.jpg 426w, assets/images/woman-model-hi-dpi.jpg 853w" media="(min-width:1020px)">
+					<source srcset ="assets/images/greek-statue.jpg" media="(min-width: 640px)">
+					<img srcset="assets/images/woman-model-hi-dpi.jpg 853w, assets/images/woman-model-large.jpg 3744w" alt="Woman modeling and stricking a pose for camera">
+				</picture>
+			</div>
+			
+			<div class = "row__medium-8 row__medium-8--smaller">
+				<div class ="generic-content-container">
+					<h2 class="headline headline--no-t-margin">85% of the value of your purchase goes to the artist&hellip;</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
+				</div>
+			</div>
+		</div>
+	</div>
   </div>
 
-  <div id="features">
-    <img src="assets/images/icons/star.svg">
-    <h2>Our Features</h2>
-  
-    <img src="assets/images/icons/rain.svg">
-    <h3>We&rsquo;ll Watch the Weather</h3>
-    <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+  <div id="features" class = "page-section page-section--orange">
+    <div class = "wrapper">
+		<img class ="icon-size"src="assets/images/icons/star.svg">
+		<h2>Our Features</h2>
+	  
+		<img class ="icon-size" src="assets/images/icons/rain.svg">
+		<h3>We&rsquo;ll Watch the Weather</h3>
+		<p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
 
-    <img src="assets/images/icons/globe.svg">
-    <h3>Global Guides</h3>
-    <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+		<img class ="icon-size" src="assets/images/icons/globe.svg">
+		<h3>Global Guides</h3>
+		<p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
 
-    <img src="assets/images/icons/wifi.svg">
-    <h3>Wi-Fi Waypoints</h3>
-    <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+		<img class ="icon-size" src="assets/images/icons/wifi.svg">
+		<h3>Wi-Fi Waypoints</h3>
+		<p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
 
-    <img src="assets/images/icons/fire.svg">
-    <h3>Survival Kit</h3>
-    <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+		<img class ="icon-size" src="assets/images/icons/fire.svg">
+		<h3>Survival Kit</h3>
+		<p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+	</div>
   </div>
 
   <div id="testimonials">
@@ -81,7 +109,7 @@
   </div>
 
   <footer>
-    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#">Get in Touch</a></p>
+    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#" class = "butn butn--orange">Get in Touch</a></p>
   </footer>
 </body>
 </html>

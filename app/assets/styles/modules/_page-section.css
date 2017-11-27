@@ -1,0 +1,22 @@
+.page-section{
+	padding: 1.2rem 0;
+	
+	@mixin atMedium{
+		padding:4.5rem 0;
+	}
+	
+	&--orange{
+		background-color: $mainTitleorange;
+		color: #FFF;
+		
+		@mixin atMedium{
+			background-color:$mainTitleblue;
+			color:black;
+		}
+		
+		@mixin atLarge{
+			background-color:$mainTitleorange;
+			color:#FFF;
+		}
+	}
+}

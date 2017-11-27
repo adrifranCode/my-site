@@ -1,0 +1,100 @@
+.large-hero {
+	position:relative;
+	
+	&__text-content{
+		position:absolute;
+		top: 50%;
+		transform:translateY(-50%);
+		left: 0;
+		width:100%;
+		text-align: center;
+    }
+    
+    &__tittle{
+		font-weight:500;
+		color: $mainTitleorange;
+		margin: 0;
+		font-size:2.9rem;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		
+		@mixin atMedium{
+			color: $mainTitleblue;
+			font-weight:400;
+			text-shadow: 2px 2px 5px rgba(0,0,0,1);
+			font-size:4.2rem;
+		}
+		
+		@mixin atLarge{
+			color:$mainTitleorange;
+			font-size:4.8rem;
+		}
+    }
+
+	&__subtittle{
+		font-weight:500;
+		color: $mainTitleorange;
+		font-size:1.5rem;
+		margin: 0;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		
+		@mixin atSmall {
+			font-size:2.9rem;
+		}
+		
+		@mixin atMedium{
+			color:$mainTitleblue;
+			font-weight:400;
+			text-shadow: 2px 2px 5px rgba(0,0,0,1);
+			font-size:2.1rem;
+		}
+		
+		@mixin atLarge{
+			color:$mainTitleorange;
+			font-size:2.8rem;
+		}
+   }
+   
+    &__description{
+		background-color:rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		color:#FFF;
+		font-size:1.875rem;
+		font-weight:100;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		max-width:40rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.5rem;
+		
+		@mixin atMedium{
+			color:black;
+			font-size:3rem;
+			background-color:rgba(239, 239, 204, 0.95);
+			box-shadow:none;
+			border-radius: 0px;
+		}
+		
+		@mixin atLarge{
+			color:white;
+			font-size:3rem;
+			background-color:rgba(255, 255, 245, 0);
+			
+		}
+    }
+    
+    &__darken{
+		filter: brightness(50%);
+	
+		@mixin atMedium{
+			filter: brightness(50%);
+		}
+		
+		@mixin atLarge{
+			filter: brightness(20%);
+		}
+    }
+
+}
+
+
+
