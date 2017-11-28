@@ -1,7 +1,6 @@
 .icon-size {
 	width:5rem;
 	height:5rem;
-	padding:1rem;
-	box-shadow:0px 5px 3px #000000;
-	filter: brightness(30%);
+	filter: brightness(10%);
+	margin-right:.5rem;
 }
