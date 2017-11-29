@@ -1,0 +1,29 @@
+.site-footer{
+	background-color:$mainTitleorange;
+	color:#FFF;
+	padding: .5rem 0;
+	text-align:center;
+	
+	@mixin atMedium{
+		background-color:$mainTitleblue;
+		color:black;
+	}
+	
+	@mixin atLarge{
+		background-color:$mainTitleorange;
+		color:#FFF;
+	}
+	
+	&__text{
+		display:block;
+		margin-bottom:1rem;
+		font-weight:200;
+		font-size:1.2rem;
+		
+		@mixin atMedium{
+			display:inline;
+			margin-bttom:0;
+			margin-right:1.4rem;
+	    }
+	}
+}

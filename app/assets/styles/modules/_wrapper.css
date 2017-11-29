@@ -19,6 +19,18 @@
 		max-width:976px;
 	}
 	
+	&__background-color{
+		background-color:$mainTitleorange;
+	
+		@mixin atMedium{
+			background-color:$mainTitleblue;
+		}
+		
+		@mixin atLarge{
+			background-color:$mainTitleorange;
+		}
+	}
+	
 	.wrapper{
 		padding-left: 0;;
 		padding-right: 0;
