@@ -556,6 +556,19 @@ a{
 	
 }
 
+.wrapper--no-padding-until-medium{
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+@media (min-width:640px){
+
+.wrapper--no-padding-until-medium{
+			padding-left:18px;
+			padding-right:18px
+	}
+	}
+
 .wrapper--medium{
 		max-width:976px;
 	}
@@ -586,7 +599,7 @@ a{
 		border-style: inset;
 		border-width: 60px;
 		display: block;
-		width: 100%;
+		width: 95%;
 		height: auto;
 		background-color: #ffe;
 		margin: 0 auto;
@@ -615,9 +628,12 @@ a{
 .img-post-effects{
 	-webkit-filter: contrast(120%);
 	        filter: contrast(120%);
-	
-	
 }
+
+.img-post-effects--portraits{
+		-webkit-filter: brightness(70%);
+		        filter: brightness(70%);
+	}
 
 .section-title {
 	font-size: 2.55rem;
@@ -625,6 +641,25 @@ a{
 	text-align:center;
 	margin-bottom:6rem;
 }
+
+.section-title--orange-whitebackground{
+		color:#e0ab30;
+		background-color:rgba(255, 255,255,1);
+	}
+
+@media (min-width:640px){
+
+.section-title--orange-whitebackground{
+			color:#711730
+	}
+	}
+
+@media (min-width:989px){
+
+.section-title--orange-whitebackground{
+			color:#e0ab30
+	}
+	}
 
 @media (min-width:640px){
 
@@ -641,6 +676,29 @@ a{
 	padding: 1.2rem 0;
 }
 
+.page-section--no-b-padding-until-medium{
+		padding-bottom:0;
+	}
+
+@media (min-width:640px){
+
+.page-section--no-b-padding-until-medium{
+			padding-bottom:4.5rem
+	}
+	}
+
+.page-section--testimonials{
+		background-color:#eaeaea;
+	}
+
+@media (min-width:640px){
+
+.page-section--testimonials{
+			background:url('/assets/images/artist-showcase.jpg') top center no-repeat;
+			background-size:cover
+	}
+	}
+
 @media (min-width:640px){
 
 .page-section{
@@ -649,6 +707,8 @@ a{
 	}
 
 .page-section--orange{
+		position:relative;
+		z-index:10;
 		background-color: #e0ab30;
 		color: #FFF;
 	}
@@ -830,12 +890,24 @@ a{
 		margin-right:-100px;
 	}
 
+.row--gutters-small{
+		margin-right:-45px;
+	}
+
 .row--gutters > div {
 		padding-right: 65px;
 	}
 
 .row--gutters-large > div {
 		padding-right:100px;
+	}
+
+.row--gutters-small > div {
+		padding-right:45px;
+	}
+
+.row--t-padding{
+		padding-top:20px;
 	}
 
 .row__b-margin-until-medium{
@@ -872,6 +944,24 @@ a{
 		}
 	}
 
+/* Begin Equal Height Rules*/
+
+@media (min-width:640px){
+
+.row--equal-height-at-medium{
+			display:-webkit-box;
+			display:-ms-flexbox;
+			display:flex
+    }
+	}
+
+.row--equal-height-at-medium > div {
+			float:none;
+			display:-webkit-box;
+			display:-ms-flexbox;
+			display:flex;
+		}
+
 .feature-item{
 	padding-top:0.5rem;
 	padding-bottom: 2.5rem;
@@ -883,6 +973,110 @@ a{
 		font-size:1.875rem;
 		font-weight:300;
 		margin-bottom:.8rem;
+	}
+
+.testimonials{
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:0 18px 1px 18px;
+	margin-bottom:128px;
+}
+
+@media (min-width:640px){
+
+.testimonials{
+		margin-bottom:0;
+		padding:0 1.8125rem 1px 1.8125rem
+}
+	}
+
+.testimonials--last {
+		margin-bottom:0;
+	}
+
+.testimonials__photo{
+		width:160px;
+		height:160px;
+		margin:0 auto -75px auto;
+		position:relative;
+		top:-80px;
+	}
+
+@media (min-width:640px){
+
+.testimonials__photo{
+			width:100%;
+			height:auto
+	}
+	}
+
+@media (min-width:840px){
+
+.testimonials__photo{
+			left:7%;
+			width:100%;
+			height:auto
+	}
+	}
+
+@media (min-width:930px){
+
+.testimonials__photo{
+			left:12%;
+			width:100%;
+			height:auto
+	}
+	}
+
+@media (min-width:989px){
+
+.testimonials__photo{
+			left:0;
+			width:160px;
+			height:160px
+	}
+	}
+
+.testimonials__title{
+		color:#e0ab30;
+		text-align:center;
+		font-size:1.5rem;
+		font-weight:500;
+	}
+
+@media (min-width:640px){
+
+.testimonials__title{
+			color:#711730
+	}
+	}
+
+@media (min-width:989px){
+
+.testimonials__title{
+			color:#e0ab30
+	}
+	}
+
+.testimonials__subtitle{
+		color:#e0ab30;
+		text-align:center;
+		font-weight:400;
+		font-size:0.9375;
+		margin: 0.25 0 1rem 0;
+	}
+
+@media (min-width:640px){
+
+.testimonials__subtitle{
+			color:#711730
+	}
+	}
+
+@media (min-width:989px){
+
+.testimonials__subtitle{
+			color:#e0ab30
+	}
 	}
 
 

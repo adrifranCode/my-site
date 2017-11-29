@@ -1,5 +1,7 @@
 .img-post-effects{
 	filter: contrast(120%);
 	
-	
+	&--portraits{
+		filter: brightness(70%);
+	}
 }

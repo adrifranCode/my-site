@@ -4,6 +4,17 @@
 	text-align:center;
 	margin-bottom:6rem;
 	
+	&--orange-whitebackground{
+		color:$mainTitleorange;
+		background-color:rgba(255, 255,255,1);
+		
+		@mixin atMedium{
+			color:$mainPurple;
+		}
+		@mixin atLarge{
+			color:$mainTitleorange;
+		}
+	}
 	@mixin atMedium{
 		font-size: 3.75rem;
 	}

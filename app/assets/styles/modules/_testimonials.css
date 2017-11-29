@@ -1,0 +1,74 @@
+.testimonials{
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:0 18px 1px 18px;
+	margin-bottom:128px;
+	
+	@mixin atMedium {
+		margin-bottom:0;
+		padding:0 1.8125rem 1px 1.8125rem;
+	}
+	
+	&--last {
+		margin-bottom:0;
+	}
+	
+	&__photo{
+		width:160px;
+		height:160px;
+		margin:0 auto -75px auto;
+		position:relative;
+		top:-80px;
+		
+		@mixin atMedium{
+			width:100%;
+			height:auto;
+		}
+		
+		@mixin atMediumstage1{
+			left:7%;
+			width:100%;
+			height:auto;
+		}
+		
+		@mixin atMediumstage2{
+			left:12%;
+			width:100%;
+			height:auto;
+		}		
+		
+		@mixin atLarge{
+			left:0;
+			width:160px;
+			height:160px;
+		}
+	}
+	
+	&__title{
+		color:$mainTitleorange;
+		text-align:center;
+		font-size:1.5rem;
+		font-weight:500;
+		
+		@mixin atMedium{
+			color:$mainPurple;
+		}
+		@mixin atLarge{
+			color:$mainTitleorange;
+		}
+	}
+	
+	&__subtitle{
+		color:$mainTitleorange;
+		text-align:center;
+		font-weight:400;
+		font-size:0.9375;
+		margin: 0.25 0 1rem 0;
+		
+		@mixin atMedium{
+			color:$mainPurple;
+		}
+		@mixin atLarge{
+			color:$mainTitleorange;
+		}
+	}
+}
