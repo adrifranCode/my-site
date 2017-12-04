@@ -1,0 +1,28 @@
+.logo-title{
+	position:absolute;
+	font-family: 'Dancing Script', cursive;
+	font-size:1.5rem;
+	top:0;
+	left:50%;
+	transform:translateX(-50%);
+	color:$mainTitleorange;
+	padding:14px 15px;
+
+	@mixin atMedium{
+		color:black;
+		font-size:3rem;
+		padding:25px 36px;
+		background-color:$mainTitleblue;
+		left:1.43%;
+		transform:translateX(0);
+	}
+	
+	@mixin atLarge{
+		color:black;
+		font-size:3rem;
+		padding:25px 36px;
+		background-color:$mainTitleorange;
+		left:1.43%;
+		transform:translateX(0);
+	}
+}

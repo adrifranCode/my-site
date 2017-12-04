@@ -1,13 +1,32 @@
 .large-hero {
 	position:relative;
+	padding-top:60px;
+	
+	
+	@mixin atMedium{
+		padding-top:170px;
+	}
+		
+	@mixin atLarge{
+		padding-top:200px;
+	}
 	
 	&__text-content{
 		position:absolute;
+		padding-top:60px;
 		top: 50%;
 		transform:translateY(-50%);
 		left: 0;
 		width:100%;
 		text-align: center;
+		
+		@mixin atMedium{
+			padding-top:170px;
+		}
+		
+		@mixin atLarge{
+			padding-top:200px;
+		}
     }
     
     &__tittle{

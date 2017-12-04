@@ -15,6 +15,13 @@
 			padding-right:18px;
 		}
 	}
+	
+	&__nav{
+		margin-left:0px;
+		
+		max-width:none;
+	}
+	
 	&--medium{
 		max-width:976px;
 	}
