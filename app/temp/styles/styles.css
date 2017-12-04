@@ -1441,8 +1441,8 @@ a{
 
 .reveal-item{
 	opacity:0;
-	-webkit-transition:all 1.5s ease-out;
-	transition:all 1.5s ease-out;
+	-webkit-transition:all 1s ease-out;
+	transition:all 1s ease-out;
 	-webkit-transform: scale(1.05);
 	        transform: scale(1.05);
 }

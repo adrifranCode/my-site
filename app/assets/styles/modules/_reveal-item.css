@@ -1,6 +1,6 @@
 .reveal-item{
 	opacity:0;
-	transition:all 1.5s ease-out;
+	transition:all 1s ease-out;
 	transform: scale(1.05);
 
 	&--is-visible{
