@@ -4019,8 +4019,8 @@ a{
 
 @media (min-width:989px){
 	.img-framed {
-		-o-border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch stretch;
-		   border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch stretch; 
+		-o-border-image: url('../../assets/images/frame-for-border.png') 93 92 87 92 stretch stretch;
+		   border-image: url('../../assets/images/frame-for-border.png') 93 92 87 92 stretch stretch; 
 		border-color: #f4be52;
 		border-style: inset;
 		border-width: 60px;
@@ -4124,7 +4124,7 @@ a{
 
 @media (min-width:640px){
 			.page-section--testimonials.lazyloaded{
-				background:url('/assets/images/artist-showcase.jpg') top center no-repeat;
+				background:url('../../assets/images/artist-showcase.jpg') top center no-repeat;
 				background-size:cover;
 			}
 	}

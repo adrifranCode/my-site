@@ -1,6 +1,6 @@
 @mixin atLarge{
 	.img-framed {
-		border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch stretch; 
+		border-image: url('../../assets/images/frame-for-border.png') 93 92 87 92 stretch stretch; 
 		border-color: #f4be52;
 		border-style: inset;
 		border-width: 60px;
