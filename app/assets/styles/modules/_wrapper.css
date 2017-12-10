@@ -26,6 +26,10 @@
 		max-width:976px;
 	}
 	
+	&--narrow{
+		max-width:472px;
+	}
+	
 	&__background-color{
 		background-color:$mainTitleorange;
 	
