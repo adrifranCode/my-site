@@ -18,6 +18,7 @@
   "homepage": "https://github.com/adrifranCode/my-site#readme",
   "dependencies": {
     "jquery": "^3.2.1",
+    "lazysizes": "^4.0.1",
     "normalize.css": "^7.0.0",
     "waypoints": "^4.0.1"
   },

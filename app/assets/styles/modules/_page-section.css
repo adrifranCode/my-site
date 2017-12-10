@@ -12,8 +12,10 @@
 	&--testimonials{
 		background-color:$mainTitleblue;
 		@mixin atMedium{
-			background:url('/assets/images/artist-showcase.jpg') top center no-repeat;
-			background-size:cover;
+			&.lazyloaded{
+				background:url('/assets/images/artist-showcase.jpg') top center no-repeat;
+				background-size:cover;
+			}
 		}
 	}
 	

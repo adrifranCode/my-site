@@ -9,6 +9,7 @@
   <meta name="keywords" content="Art auctions, Featured artists, International acclaim, Art history, and more">
   <meta name="description" content="Find Treasure. One click away. Locate, study, and purchase the world's art on the internet.">
   <link rel ="stylesheet" href = "temp/styles/styles.css">
+  <script src="/temp/scripts/Vendor.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -55,14 +56,14 @@
 		<h2 class="headline headline--centered headline--light headline--b-margin-small">Amazing artwork right at your fingertips.</h2>
 		<h3 class="headline headline--centered headline--purple headline--small headline--light headline--b-margin-large"> Curated pieces from artists worldwide showcase the best art the world has to offer.</h3>
 		<div class = "wrapper wrapper--medium wrapper--b-margin">
-			<img class = "img-post-effects" sizes ="(min-width: 970px) 976w, 100vw" srcset="assets/images/graffiti-lowres.jpg 460w, assets/images/graffiti-mediumres.jpg 976w, assets/images/graffiti.jpg 1920w" alt="Beautifully designed graffiti on a wall">
+			<img class = "img-post-effects lazyload" sizes ="(min-width: 970px) 976w, 100vw" data-srcset="assets/images/graffiti-lowres.jpg 460w, assets/images/graffiti-mediumres.jpg 976w, assets/images/graffiti.jpg 1920w" alt="Beautifully designed graffiti on a wall">
 		</div>	
 		<div class="row row--gutters">
 			<div class ="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
 				<picture class = "img-post-effects">
-					<source sizes ="426px" srcset ="assets/images/woman-model.jpg 426w, assets/images/woman-model-hi-dpi.jpg 853w" media="(min-width:1020px)">
-					<source srcset ="assets/images/greek-statue.jpg" media="(min-width: 640px)">
-					<img srcset="assets/images/woman-model-hi-dpi.jpg 853w, assets/images/woman-model-large.jpg 3744w" alt="Woman modeling and stricking a pose for camera">
+					<source sizes ="426px" data-srcset ="assets/images/woman-model.jpg 426w, assets/images/woman-model-hi-dpi.jpg 853w" media="(min-width:1020px)">
+					<source data-srcset ="assets/images/greek-statue.jpg" media="(min-width: 640px)">
+					<img class="lazyload" data-srcset="assets/images/woman-model-hi-dpi.jpg 853w, assets/images/woman-model-large.jpg 3744w" alt="Woman modeling and stricking a pose for camera">
 				</picture>
 			</div>
 			
@@ -107,7 +108,7 @@
 	</div>
   </div>
 
-  <div id="testimonials" class= "page-section page-section--no-b-padding-until-medium page-section--testimonials">
+  <div id="testimonials" class= "page-section page-section--no-b-padding-until-medium page-section--testimonials lazyload">
     
     <div class="wrapper wrapper--no-padding-until-medium">
 		<h2 class="section-title section-title--orange-whitebackground">Artist Showcase</h2>
@@ -116,7 +117,7 @@
 			<div class="row__medium-4">
 				<div class ="testimonials">
 					<div class="testimonials__photo">
-						<img sizes = "160px" class = "img-post-effects--portraits"srcset="assets/images/portrait1-lowres.jpg 160w, assets/images/portrait1.jpg 320w" alt = "Marth Johnson">
+						<img class = "lazyload" sizes = "160px" class = "img-post-effects--portraits" data-srcset="assets/images/portrait1-lowres.jpg 160w, assets/images/portrait1.jpg 320w" alt = "Marth Johnson">
 					</div>
 					<h3 class ="testimonials__title">Marth Johnson</h3>
 					<h4 class = "testimonials__subtitle">Photgrapher</h4>
@@ -126,7 +127,7 @@
 			<div class="row__medium-4">
 				<div class ="testimonials">
 					<div class="testimonials__photo">
-						<img sizes = "160px" class = "img-post-effects--portraits"srcset="assets/images/portrait2-lowres.jpg 160w, assets/images/portrait2.jpg 320w" alt = "Vlad Tsuki">
+						<img class = "lazyload" sizes = "160px" class = "img-post-effects--portraits" data-srcset="assets/images/portrait2-lowres.jpg 160w, assets/images/portrait2.jpg 320w" alt = "Vlad Tsuki">
 					</div>
 					<h3 class ="testimonials__title">Vlad Tsuki</h3>
 					<h4 class = "testimonials__subtitle">Graphic Designer</h4>
@@ -136,7 +137,7 @@
 			<div class="row__medium-4">
 				<div class ="testimonials testimonials--last">
 					<div class="testimonials__photo">
-						<img sizes = "160px" class = "img-post-effects--portraits"srcset="assets/images/portrait3-lowres.jpg 160w, assets/images/portrait3.jpg 320w" alt = "Maria Gonzalez">
+						<img class = "lazyload" sizes = "160px" class = "img-post-effects--portraits" data-srcset="assets/images/portrait3-lowres.jpg 160w, assets/images/portrait3.jpg 320w" alt = "Maria Gonzalez">
 					</div>
 					<h3 class ="testimonials__title">Maria Gonzalez</h3>
 					<h4 class = "testimonials__subtitle">Painter</h4>

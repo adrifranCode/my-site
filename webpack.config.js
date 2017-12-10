@@ -3,10 +3,13 @@ var path = require('path');
 //  Babel and Webpack Configuration
 
 module.exports = {
-	entry: "./app/assets/scripts/App.js",
+	entry: {
+		App: "./app/assets/scripts/App.js",
+		Vendor: "./app/assets/scripts/Vendor.js"
+	},
 	output:{
 		path: path.resolve(__dirname, "./app/temp/scripts" ),
-		filename:"App.js"
+		filename:"[name].js"
 	},
 	module:{
 		loaders:[
